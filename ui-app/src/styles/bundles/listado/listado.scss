@@ -1,0 +1,5 @@
+@import "../../pages/listado/listado_small";
+
+@media (min-width: 767px) {
+    @import "../../pages/listado/listado_large";
+}

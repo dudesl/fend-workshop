@@ -11,13 +11,11 @@ var large = require('./resources/large.resources');
  * Bundles
  */
 exports.scripts = {
-    'bundle__small': merge(shared.scripts, small.scripts),
-    'bundle__large': merge(shared.scripts, large.scripts)
+    'listado':'./src/scripts/listado.js'
 };
 
 exports.styles = {
-    'bundle__small': merge(shared.styles, small.styles),
-    'bundle__large': merge(shared.styles, large.styles)
+    'listado': './src/styles/bundles/listado/listado.scss'
 };
 
 exports.fonts = {
